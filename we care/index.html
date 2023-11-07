@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WeCare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mealify is a restaurant landing page that offers a delicious dining experience to its customers. Our menu is carefully crafted to satisfy diverse tastes and preferences, ranging from traditional to modern dishes."
+    />
+    
+    <!--!=====> favicon -->
+    <link rel="icon" href="./img/favicon.png">
+    <!--&=====> Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--?=====> Font Awesome Library Icons -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!--?=====> Main Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--?=====> Dark Mode Stylesheet -->
+    <link rel="stylesheet" href="./css/dark-mode.css" />
+    <!--?=====> Animation Stylesheet -->
+    <link rel="stylesheet" href="./css/animations.css" />
+    <!--?=====> Media Quries -->
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!--^==========> Navbar -->
+    <nav>
+      <div class="container">
+        <h1>
+          <a href="index.html" class="logo">WeCare</a>
+        </h1>
+        <ul class="nav-links" id="navLinks">
+          <a href="#home" class="close-icon">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+          <li>
+            <a href="#home">الصفحة الرئيسية</a>
+          </li>
+          <li>
+            <a href="#chefs">معلومات عنا </a>
+          </li>
+          <li>
+            <a href="#gallery">خدمتنا</a>
+            <ul>
+              <li>
+                <a href="#"></a>
+                <ul>
+                  <li><a href="#">زيارة الطبيب المنزلية</a></li>
+                  <li><a href="#">العلاج الطبيعي المنزلي</a></li>
+                  <li><a href="#">الأشعة</a></li>
+                  <li><a href="#">رعاية المسنين</a></li>
+                  <li><a href="#">خدمة سريعة</a></li>
+                  <li><a href="#">غسيل الكلى المنزلي</a></li>
+                  <li><a href="#">التحاليل المخبرية</a></li>
+                  <li><a href="#">توفير المستلزمات الطبية</a></li>
+                  <li><a href="#">توفير سيارات النقل المجهزة</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#contact">اتصل بنا </a>
+          </li>
+          <li>
+            <a href="#contact">مدونة</a>
+          </li>
+          <li>
+            <a href="#contact">الموارد</a>
+          </li>
+        </ul>
+
+        <div class="mode-group">
+          <label for="mode" class="dark">
+            <i class="fa-solid fa-moon"></i>
+          </label>
+          <label for="mode" class="light">
+            <i class="fa-regular fa-sun"></i
+          ></label>
+          <input type="checkbox" id="mode" class="mode" hidden aria-hidden />
+        </div>
+
+        <a href="#navLinks" class="menu-icon"
+          ><i class="fa-solid fa-bars"></i
+        ></a>
+      </div>
+    </nav>
+
+    <!--^==========> Header -->
+
+    <header id="home" class="home section-bg">
+      <div class="container">
+        <div class="header-content">
+          <h2>
+            استمتع بافضل تجربه
+             رعايه صحيه منزليه <br />
+            
+          </h2>
+          
+          <div class="btn-group">
+            <a href="https://www.apple.com" class="btn btn-primary fa-brands me-2 " ><i class="fa-brands fa-google-play ms-2"></i>dawnlod</a>
+            <a href="https://play.google.com"  class="btn btn-primary fa-brands me-2 " > <i class="fa-brands fa-app-store-ios ms-2"></i>dawnlod</a>
+            
+          </div>
+        </div>
+        <picture>
+          <img
+            src="./img/Nurse-PNG-Image.png"
+            alt="A black dish filled with a colorful assortment of fresh vegetables and bread."
+          />
+        </picture>
+      </div>
+    </header>
+
+    <!--^==========> Chefs -->
+
+    <section id="chefs" class="chefs">
+      <div class="container">
+        <div class="main-title">
+          
+          <p class="text-bg-primary"><span class="text-light"> معلومات</span> عنا</p>
+        </div>
+        
+        
+        <div class="container2 text-bg-primary">
+          <h2><i class="fas fa-eye"></i> رؤيتنا</h2>
+          <p>نسعى لتحسين صحة وجودة حياة الأفراد من خلال تقديم خدمات صحية متميزة ومتكاملة.</p>
+      
+          <h2><i class="fas fa-bullhorn"></i> رسالتنا</h2>
+          <p>نهدف إلى تقديم الرعاية الصحية الأمثل لمرضانا وتشجيع الوعي الصحي في المجتمع من خلال التعليم والتوعية.</p>
+      
+          <h2><i class="fas fa-bullseye"></i> أهدافنا</h2>
+          <ul>
+              <li>تقديم رعاية صحية عالية الجودة.</li>
+              <li>تعزيز البحث والتطوير في مجال الطب والصحة.</li>
+              <li>تمكين المرضى من اتخاذ قرارات صحية مستنيرة.</li>
+          </ul>
+      </div>
+      
+      </div>
+    </section>
+
+    <!--^==========> Gallery -->
+    
+    
+
+  
+      
+    <section id="Gallery" class="gallery container">
+
+      <div class="main-title">
+          
+        <p class="text-bg-primary"><span class="text-light"> خدمتنا</span></p>
+      </div>
+  
+  
+      <div class="d-flex flex-wrap justify-content-center w-100 container">
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+          
+         <div class="  fa-solid fa-user-doctor fs-3 text-light "  > </div>
+         <h2  class="text-light">زيارة الطبيب المنزلية</h2>
+          
+        </div>
+    
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly  bg-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-whatever="@mdo">
+          
+          <div class=" fa-solid fa-bed-pulse fs-3  text-light" > </div>
+            <h2 class="text-light" >العلاج الطبيعي المنزلي</h2>
+          
+        </div>
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly  bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-x-ray fs-3  text-light" > </div>
+          <h2 class="text-light" >الأشعة</h2>
+          
+        </div>
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal3" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-person-cane fs-3  text-light" > </div>
+          <h2 class="text-light" >رعاية المسنين</h2>
+        </div>
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal4" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-user-nurse fs-3 text-light"> </div>
+          <h2 class="text-light">خدمة سريعة</h2>
+        </div>
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal5" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-user-nurse fs-3 text-light"> </div>
+          <h2 class="text-light">غسيل الكلى المنزلي</h2>
+  
+        </div>
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal6" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-flask-vial fs-3 text-light"> </div>
+          <h2 class="text-light">التحاليل المخبرية</h2>
+        </div>
+  
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal7" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-wheelchair-move fs-3 text-light"> </div>
+            <h2 class="text-light">توفير المستلزمات الطبية</h2>
+        </div>
+  
+        <div class="employee m-3 w-25 pt-3 d-flex flex-wrap  justify-content-evenly bg-primary"data-bs-toggle="modal" data-bs-target="#exampleModal8" data-bs-whatever="@mdo">
+          
+          <div class="fa-solid fa-truck-medical fs-3 text-light"> </div>
+          <h2 class="text-light">توفير سيارات النقل المجهزة</h2>
+        </div>
+  
+      </div>
+
+
+    </section>
+    <!-- Scrollable modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body ">
+        <h2>يوفر تطبيق We Care إمكانية حجز وطلب زيارة منزلية من طبيب متخصص في أهم تخصصات طب الشيخوخة (طبيب متخصص في علاج الأمراض المزمنة)، جراحة المسالك البولية، أمراض النساء والتوليد، الطب النفسي والأعصاب، طب الأسنان، طب جراحة المخ والأعصاب، جراحة العظام، القلب والصدر، الجراحة التجميلية، الجراحة العامة، أمراض الكبد، الأمراض الجلدية، طب التغذية، أمراض السكري والغدد الصماء</h2>
+      </div>
+
+     
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+       <h2>يقدم تطبيق We Care خدمات العلاج الطبيعي من المنزل بالتنسيق مع طبيب العظام لتحديد عدد الجلسات وأنواع الجلسات المقدمة (جلسات العلاج الطبيعي لآلام الظهر والعمود الفقري والمفاصل والغضاريف وحالات الشلل وضعف العضلات وتأخر النمو )</h2>
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>يمكنك طلب زيارة منزلية من أخصائي الأشعة أو الاستشاري، أنواع الأشعة المقدمة (أشعة سينية، الموجات فوق الصوتية، دوبلكس، صدى القلب، اللون (أشعة صبغية))</h1>
+       
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>بالإمكان طلب مرافقين لرعاية كبار السن (جليسة مسنين). مدة المرافقة (8 ساعات، 12 ساعة، 24 ساعة). الحالات المصاحبة (الزهايمر، السكتات الدماغية، الشلل، الشيخوخة) ومساعدة المريض في النظافة الشخصية اليومية وإعطاء الحقن ومتابعة مواعيد الأدوية.</h1>
+        
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>توفير ممرضات سواء (12 ساعة أو 24 ساعة) لـ (إعطاء الحقن، تركيب المحاليل، تركيب سيلوناس، تغيير الجروح، جلسات التنفس بالأكسجين).</h1>
+        
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>اطلب خدمة غسيل الكلى المنزلية لإزالة الفضلات والسموم من الدم بشكل آمن</h1>
+        
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>يقوم مقدم الخدمة بزيارة المريض في منزله لسحب عينة دم وإرسالها إلى المختبر</h1>
+        
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>نقدم خدمة شراء وتأجير الأجهزة والمعدات والمستلزمات الطبية وتوصيلها بأفضل الأسعار مثل (جهاز قياس الأكسجين، سرير طبي، أجهزة تنفس صناعي، كرسي متحرك طبي، اسطوانات الأكسجين، جهاز استنشاق البخار، جهاز مراقبة المرضى)</h1>
+        
+      </div>
+
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>يمكن طلب سيارات إسعاف مجهزة، كما يمكن توفير مركبات مجهزة للأشخاص ذوي الاحتياجات الخاصة مع إمكانية الوصول إلى الكراسي المتحركة للتنقل</h1>
+       
+      </div>
+
+     
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <h1>1-fweklgwgmowl,gewpg</h1>
+        <br>
+        <h1>2-eginwemg,wegoimwg</h1>
+      </div>
+
+      <div class="modal-body">
+        <h1>1-vjhvjhv</h1>
+        <br>
+        <h1>2-ejhfhj,</h1>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+    <!--^==========> Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="main-title">
+          <h2>تواصل</h2>
+          <p class="text-bg-primary">تحتاج مساعدة? <span class="text-bg-primary">تواصل معنا </span></p>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.445785295115!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1681863129691!5m2!1sen!2sus"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="details">
+          <div class="address ">
+            <div class="icon bg-primary">
+              <i class="fa-regular fa-map"></i>
+            </div>
+            <div class="address-content">
+              <h3>العنوان</h3>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+          <div class="email">
+            <div class="icon bg-primary">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="email-content">
+              <h3>البريد الالكتروني</h3>
+              <a href="mailto:contact@example.com">contact@example.com </a>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="icon bg-primary">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="phone-content">
+              <h3>تواصل معنا </h3>
+              <a href="tel:+1 5589 55488 55">+1 5589 55488 55 </a>
+            </div>
+          </div>
+          <!-- <div class="opening-hours">
+            <div class="icon">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+            <div class="opening-content">
+              <h3>Opening Hours</h3>
+              <p>
+                <strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday</strong> :
+                Closed
+              </p>
+            </div>
+          </div> -->
+        </div>
+        <form>
+          <div class="input-group">
+            <input type="text" placeholder="اسمك " name="name" />
+            <input type="email" placeholder="البريد الالكتروني الخاص بك " name="email" />
+          </div>
+          <input type="text" placeholder="الوصف " name="subject" />
+          <textarea placeholder="الرسالة " name="message"></textarea>
+          <button class="btn btn-main bg-primary" type="submit">أرسل رسالة</button>
+        </form>
+      </div>
+    </section>
+
+    <!--^==========> Footer -->
+    <footer>
+      <div class="container">
+        <div class="about">
+          <div>
+           
+            <h2 class="logo">WeCare</h2>
+          </div>
+          <p>
+            we Care  تطبيق سيوفر لك افضل تجربه رعايه منزليه 
+          </p>
+          <h3>مواقع التواصل</h3>
+          <ul class="social-links">
+            <li>
+              <a href="https://twitter.com" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription">
+          <div class="subscription-box">
+            <h3>اشترك في النشرة الإخبارية لدينا</h3>
+            <p>
+              لا تفوت آخر تحديثات القائمة والعروض الحصرية - انضم إلى نشرتنا الإخبارية اليوم وابق على اطلاع بكل ما يتعلق بـ WeCare!
+            </p>
+            <div class="sunscription-group">
+              <input type="email" placeholder="ادخل بريدك الالكتروني" />
+              <button class="btn btn-main bg-primary">
+                <i class="fa-solid fa-envelope"></i> اشترك
+              </button>
+            </div>
+          </div>
+          <div class="quick-links">
+            <h3>لينكات سريعة</h3>
+            <ul>
+              <li>
+                <a href="">خدمتنا</a>
+              </li>
+             
+              <li>
+                <a href="">معلومات عنا</a>
+              </li>
+              <li>
+                <a href="">تواصل معنا</a>
+              </li>
+              <li>
+                <a href="">الصفحه الرئيسية</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="contact-details">
+          <h3>ابقي علي تواصل معنا</h3>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot "></i>
+              <span>A108 Adam Street, New York, NY 535022 </span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope "></i>
+              <a href="mailto:contact@example.com">contact@example.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+1 5589 55488 55">+1 5589 55488 55</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <scrip src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+  </body>
+</html>
